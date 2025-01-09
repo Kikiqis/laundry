@@ -1,11 +1,14 @@
-# Toko Online
+# lAUNDRY
 
-<p align="center"><img src="image/ubsi.png" width="200" alt="Logo UBSI"></p>
+<p align="center"><img src="public/image/UBSI.png" width="200" alt="Logo UBSI"></p>
 
 
 ## Pengenalan Project
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, quasi! Sint aspernatur culpa, cupiditate vitae expedita sit impedit esse rem fugiat, modi est, eveniet iusto molestias qui deleniti voluptatum quos!
+Di era modern ini, gaya hidup masyarakat semakin sibuk dengan berbagai aktivitas, baik di bidang pekerjaan, pendidikan, maupun rumah tangga. Hal ini sering kali membuat waktu untuk mengerjakan pekerjaan rumah tangga, seperti mencuci dan menyetrika pakaian, menjadi terbatas. Sementara itu, kebutuhan akan pakaian yang bersih, rapi, dan wangi tetap menjadi prioritas utama bagi setiap individu, terutama untuk menunjang penampilan sehari-hari.
+Melihat permasalahan tersebut, jasa laundry hadir sebagai solusi praktis untuk memenuhi kebutuhan masyarakat akan layanan pencucian pakaian yang cepat, bersih, dan berkualitas. Dengan teknologi modern dan pelayanan profesional, usaha laundry menjadi pilihan yang diminati, khususnya di daerah perkotaan atau kawasan padat penduduk.
+Selain itu, pertumbuhan permintaan terhadap jasa laundry terus meningkat seiring dengan perubahan gaya hidup masyarakat yang lebih mengutamakan efisiensi waktu. Jasa ini tidak hanya melayani kebutuhan rumah tangga, tetapi juga institusi seperti hotel, restoran, kos-kosan, hingga perkantoran yang memerlukan layanan pencucian skala besar.
+Dengan adanya potensi pasar yang luas dan terus berkembang, usaha laundry memiliki peluang besar untuk menjadi bisnis yang menguntungkan dan berkelanjutan, terutama jika didukung dengan pelayanan terbaik, harga yang kompetitif, dan inovasi yang berorientasi pada kebutuhan pelanggan.
 
 ## Nama Kelompok
 <table border="1">
@@ -19,28 +22,23 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, quasi! Sin
   <tbody>
     <tr>
       <td>1</td>
-      <td>19XXXXXX</td>
-      <td>Fulan bin Fulan</td>
+      <td>19231413</td>
+      <td>Danu Pangesti</td>
     </tr>
     <tr>
       <td>2</td>
-      <td>19XXXXXX</td>
-      <td>Fulan bin Fulan</td>
+      <td>19231213</td>
+      <td>Fitra Hakiki Firdaus</td>
     </tr>
     <tr>
       <td>3</td>
-      <td>19XXXXXX</td>
-      <td>Fulan bin Fulan</td>
+      <td>19231774</td>
+      <td>Bimo Syahlendra</td>
     </tr>
     <tr>
       <td>4</td>
-      <td>19XXXXXX</td>
-      <td>Fulan bin Fulan</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>19XXXXXX</td>
-      <td>Fulan bin Fulan</td>
+      <td>1923</td>
+      <td>Muhammad Haikal Juliansyah</td>
     </tr>
   </tbody>
 </table>
@@ -52,14 +50,17 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, quasi! Sin
 ## Skenario Kebutuhan Pengguna
 <strong>Pengguna</strong>
 <ol>
-<li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-<li>Illo amet nesciunt ipsam velit? Perferendis quo, corrupti assumenda ipsa commodi laborum aliquam..</li>
+<li>mengirim pesan ulasan</li>
+<li>dapat melihat harga</li>
 </ol>
 
 <strong>Admin</strong>
 <ol>
-<li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-<li>Illo amet nesciunt ipsam velit? Perferendis quo, corrupti assumenda ipsa commodi laborum aliquam..</li>
+<li>bisa menambah dan mengedit harga </li>
+<li>mengelola ulasan dari pelanggan</li>
+<li>melihat laporan data pakaian</li>
+<li>bisa login</li>
+<li>bisa mendaftar akun baru</li>
 </ol>
 <!-- Sesuaikan dengan hak akses dari project masing-masing kelompok -->
 
@@ -75,7 +76,7 @@ Sebelumnya pastikan menginstall terlebih dahulu kebutuhan sistem untuk menggunak
 ## Cara Install
 1. Cloning repository ini melalui terminal. Tunggu hingga selesai cloning.
 ```
-git clone https://github.com/yuris60/TokoOnline.git
+git clone https://github.com/Kikiqis/laundry.git
 ```
 <!-- Ubah link diatas dengan link repository yang kalian -->
 
@@ -88,7 +89,7 @@ composer install
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=db_tokoonline
+DB_DATABASE=db_laundry
 DB_USERNAME=root
 DB_PASSWORD=
 ```
@@ -110,20 +111,28 @@ php artisan migrate:fresh --seed
 ## Screenshot
 <table width="100%">
 <tr>
-<td><h3 align="center">Menu 1</h3><img src="folder/image1.jpg"></td>
-<td><h3 align="center">Menu 2</h3><img src="folder/image2.jpg"></td>
+<td><h3 align="center">halaman login</h3><img src="public/image/login.png"></td>
+<td><h3 align="center">halaman dashboard</h3><img src="public/image/dashboard.png"></td>
 </tr>
 <tr>
-<td><h3 align="center">Menu 3</h3><img src="folder/image3.jpg"></td>
-<td><h3 align="center">Menu 4</h3><img src="folder/image4.jpg"></td>
+<td><h3 align="center">halaman data pakaian</h3><img src="public/image/data pakaian.png"></td>
+<td><h3 align="center">halaman tambah pakaian</h3><img src="public/image/tambah pakaian.png"></td>
 </tr>
 <tr>
-<td><h3 align="center">Menu 5</h3><img src="folder/image5.jpg"></td>
-<td><h3 align="center">Menu 6</h3><img src="folder/image6.jpg"></td>
+<td><h3 align="center">halaman edit pakaian</h3><img src="public/image/edit pakaian.png"></td>
+<td><h3 align="center">halaman laporan</h3><img src="public/image/laporan.png"></td>
 </tr>
 <tr>
-<td><h3 align="center">Menu 7</h3><img src="folder/image7.jpg"></td>
-<td><h3 align="center">Menu 8</h3><img src="folder/image8.jpg"></td>
+<td><h3 align="center">hasil cetak laporan</h3><img src="public/image/hasil.png"></td>
+<td><h3 align="center">halaman ulasan pelanggan</h3><img src="public/image/ulasan.png"></td>
+</tr>
+<tr>
+<td><h3 align="center">halaman home</h3><img src="public/image/home.png"></td>
+<td><h3 align="center">lanjutan halaman home</h3><img src="public/image/footer.png"></td>
+</tr>
+<tr>
+<td><h3 align="center">halaman about us</h3><img src="public/image/about.png"></td>
+<td><h3 align="center">halaman pricing</h3><img src="public/image/price.png"></td>
 </tr>
 </table>
 
