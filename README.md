@@ -1,4 +1,4 @@
-# lAUNDRY
+# LAUNDRY
 
 <p align="center"><img src="public/image/UBSI.png" width="200" alt="Logo UBSI"></p>
 
@@ -23,7 +23,7 @@ Dengan adanya potensi pasar yang luas dan terus berkembang, usaha laundry memili
     <tr>
       <td>1</td>
       <td>19231413</td>
-      <td>Danu Pangesti</td>
+      <td>Danu PangestU</td>
     </tr>
     <tr>
       <td>2</td>
@@ -37,7 +37,7 @@ Dengan adanya potensi pasar yang luas dan terus berkembang, usaha laundry memili
     </tr>
     <tr>
       <td>4</td>
-      <td>1923</td>
+      <td>19230861</td>
       <td>Muhammad Haikal Juliansyah</td>
     </tr>
   </tbody>
