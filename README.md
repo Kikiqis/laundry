@@ -23,7 +23,7 @@ Dengan adanya potensi pasar yang luas dan terus berkembang, usaha laundry memili
     <tr>
       <td>1</td>
       <td>19231413</td>
-      <td>Danu PangestU</td>
+      <td>Danu Pangestu</td>
     </tr>
     <tr>
       <td>2</td>
