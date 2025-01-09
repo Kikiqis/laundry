@@ -45,7 +45,7 @@ Dengan adanya potensi pasar yang luas dan terus berkembang, usaha laundry memili
 
 ## ERD & LRS
 <p align="center"><img src="public/image/ERD.jpg" width="600" alt="ERD"></p>
-<p align="center"><img src="PUBLIC/image/LRS.png" width="600" alt="LRS"></p>
+<p align="center"><img src="public/image/LRS.png" width="600" alt="LRS"></p>
 
 ## Skenario Kebutuhan Pengguna
 <strong>Pengguna</strong>
